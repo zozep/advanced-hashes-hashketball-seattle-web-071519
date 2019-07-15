@@ -164,4 +164,11 @@ def player_numbers(team_name)
       
       data.each do |data|
         nums << data[:number]
+      end
+    end
+  end
+  nums
+end
+
+
 end
