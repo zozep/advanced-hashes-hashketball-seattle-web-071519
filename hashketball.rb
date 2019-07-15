@@ -178,4 +178,9 @@ def player_stats(sought_player_name)
       
       new_hash = player.delete_if do |key, _value|
         k == :player_name
+      end
+    end
+  end
+end
+
 end
