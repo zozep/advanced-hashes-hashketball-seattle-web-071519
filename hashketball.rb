@@ -136,6 +136,10 @@ def shoe_size(sought_player_name)
       
       data.each do |player|
         return player[:shoe] if player[:player] == sought_player_name
+      end
+    end
+  end
+end
 
 
 
