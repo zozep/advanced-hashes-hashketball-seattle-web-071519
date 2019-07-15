@@ -175,4 +175,6 @@ def player_stats(sought_player_name)
   game_hash.each do |place, team|
     team.each do |attribute, data|
       next unless player[:player_name] == sought_player_name
+      
+      new_hash = player.delete_if do |key, value|
 end
